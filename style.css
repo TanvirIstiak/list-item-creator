@@ -13,7 +13,6 @@ body{
 
 .input{
     padding: 20px;
-    color: rgb(134, 207, 207);
     text-shadow: -1px -1px 0px black,-1px -1px 0px black,-1px -1px 0px black;
 }
 
@@ -28,7 +27,7 @@ body{
 
 h1{
     color: blue;
-    text-shadow: -2px -2px 0px black,-2px -2px 0px black,-1px -1px 0px black;
+   /* text-shadow: -2px -2px 0px black,-2px -2px 0px black,-1px -1px 0px black*/
 }
 
 .paragraph{

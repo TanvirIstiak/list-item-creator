@@ -8,8 +8,8 @@ let showInput=document.getElementById("show-input")
 
 button1.addEventListener("click",function(e) {
     e.preventDefault() 
-    if(input1.value=="" && input2.value=="" && input3.value=="" && input4.value==""){
-        alert("Plz put something in the box ")
+    if(input1.value=="" || input2.value=="" || input3.value=="" || input4.value==""){
+        alert("Plz fill up all the box")
     }else {
         let tr=document.createElement("tr")
         showInput.appendChild(tr)
@@ -55,8 +55,8 @@ button1.addEventListener("click",function(e) {
 
 button2.addEventListener("click",function(e) {
     e.preventDefault() 
-    if(input1.value=="" && input2.value=="" && input3.value=="" && input4.value==""){
-        alert("Plz put something in the box ")
+    if(input1.value=="" || input2.value=="" || input3.value=="" || input4.value==""){
+        alert("Plz fill up all the box")
     }else {
         let tr=document.createElement("tr")
         showInput.appendChild(tr)
